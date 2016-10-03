@@ -1,0 +1,226 @@
+.navbar-default {
+  background-color: #1b0d26;
+  border-color: #a64859;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f9f9f9;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #f9f9f9;
+  background-color: #a64859;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #f9f9f9;
+  background-color: #a64859;
+}
+.navbar-default .navbar-toggle {
+  border-color: #a64859;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #a64859;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #f9f9f9;
+}
+.hero.text-left {
+	position: relative;
+	left: 9%;
+}
+#channels {
+	margin-left: 24px;
+}
+
+
+@media (max-width:648px){
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #f9f9f9;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #f9f9f9;
+    background-color: #a64859;
+  }
+}
+/*navcode*/
+
+.navbar-brand {
+	background-repeat: no-repeat;
+	padding-left: 62px;
+	background-image: url(../images/svg/paw_icon.svg);
+	background-position: 3% 0%;
+}
+
+
+/*nav brand */
+
+
+#home-top {
+	display: table;
+	height: 500px;
+	width: 100%;
+	background: url("../images/red_strong.png") no-repeat;
+	background-size: cover;
+	
+	color: #fff;
+}
+#home-top #home-top-center {
+	margin-left: 69px;
+	margin-top: 220px;
+}
+
+#thinkFrame {
+	margin-left: 51px;
+}
+#firstFrame {
+	padding-left: 30px;
+
+}
+
+/*navbar remove outline on active and focus remove*/ 
+a:active{
+	
+    outline: none;
+}
+	
+a:focus
+{
+-moz-outline-style: none;
+}
+
+a:focus { outline:none }
+
+
+/*button links remove outline on active and focus remove*/ 
+#buttonM:active{
+	outline:none;
+}
+	
+#buttonM:focus{
+	outline:none;
+}
+	
+#buttonM:focus{
+   -moz-outline-style: none;
+}
+
+#buttonC:active{
+	outline:none;
+}
+	
+#buttonC:focus{
+	outline:none;
+}
+	
+#buttonC:focus{
+   -moz-outline-style: none;
+}
+
+/*heading margin*/ 
+.myHeadings{
+	margin-left:20px;
+}
+
+/*Control background*/ 
+
+#controlSelect{
+	background-color: #EFEFEF;
+}
+
+/*mainRoom controls*/ 
+
+#lightL{
+	
+	margin-right:20px;
+}
+
+#fanL{
+	
+	margin-right:30px;
+}
+
+#acL{
+	
+	margin-right:35px;
+}
+
+/*kitchen controls*/ 
+
+#light2L{
+	
+	margin-right:90px;
+}
+
+#efanL{
+	
+	margin-right:40px;
+}
+
+#otherL{
+	
+	margin-right:10px;
+}
+
+/*button remove outline on active and focus of Controls*/ 
+
+#LightON:active{
+	outline:none;
+}
+	
+#LightON:focus{
+	outline:none;
+}
+	
+#LightON:focus{
+   -moz-outline-style: none;
+}
+
+#LightOFF:active{
+	outline:none;
+}
+	
+#LightOFF:focus{
+	outline:none;
+}
+	
+#LightOFF:focus{
+   -moz-outline-style: none;
+}
+
+
+#myHome{
+	background-color: #EFEFEF;
+}
